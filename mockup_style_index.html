@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BinsonLi Visuals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box} body{font-family:Inter,sans-serif;background:#e9e0d6;color:#1e1e1e}
+header{position:fixed;top:20px;left:50%;transform:translateX(-50%);width:90%;z-index:10;background:rgba(255,248,240,.72);backdrop-filter:blur(12px);border-radius:22px;padding:18px 30px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 10px 35px rgba(0,0,0,.08)}
+.logo{font-family:Playfair Display,serif;font-size:2rem}
+nav a{text-decoration:none;color:#222;margin-left:24px}
+.hero{height:100vh;padding:120px 6% 40px;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+.left{background:#d8c7b4;border-radius:36px;padding:70px;position:relative;overflow:hidden;min-height:78vh;background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.1)),url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1600&auto=format&fit=crop');background-size:cover;background-position:center;color:#fff}
+.left h1{font:700 5.5rem Playfair Display,serif;line-height:.92;max-width:700px}
+.left p{margin:24px 0;max-width:460px;font-size:1.1rem}
+.btn{display:inline-block;background:#b7865f;color:#fff;padding:16px 28px;border-radius:999px;text-decoration:none}
+.right{display:grid;gap:22px}
+.card{background:#f6efe7;border-radius:32px;padding:30px;box-shadow:0 10px 35px rgba(0,0,0,.06)}
+.preview{height:240px;border-radius:26px;background-size:cover;background-position:center;margin-bottom:18px}
+.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;padding:0 6% 80px}
+.tile{height:320px;border-radius:28px;background-size:cover;background-position:center;position:relative;overflow:hidden}
+.tile span{position:absolute;bottom:20px;left:20px;background:rgba(255,255,255,.78);padding:10px 16px;border-radius:999px}
+.cta{margin:0 6% 80px;background:#1d1d1d;color:#fff;border-radius:36px;padding:70px;text-align:center}
+footer{text-align:center;padding:40px;color:#666}
+@media(max-width:900px){
+.hero{grid-template-columns:1fr}
+.left{min-height:65vh;padding:40px}
+.left h1{font-size:3.5rem}
+nav{display:none}
+.mini-grid{grid-template-columns:1fr}
+}
+</style></head>
+<body>
+<header><div class="logo">BinsonLi</div>
+<nav><a href="#">Inicio</a><a href="#">Portfolio</a><a href="#">Servicios</a><a href="#">Contacto</a></nav>
+</header>
+
+<section class="hero">
+<div class="left">
+<h1>Cinematic<br>Visual<br>Stories</h1>
+<p>Videoclips, fotografía y contenido visual con estética premium cinematográfica.</p>
+<a class="btn" href="#">Ver Portfolio</a>
+</div>
+
+<div class="right">
+<div class="card">
+<div class="preview" style="background-image:url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1200&auto=format&fit=crop')"></div>
+<h2>Videoclips</h2><br><p>Producciones musicales modernas.</p>
+</div>
+<div class="card">
+<div class="preview" style="background-image:url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200&auto=format&fit=crop')"></div>
+<h2>Photography</h2><br><p>Sesiones urbanas y retratos premium.</p>
+</div>
+</div>
+</section>
+
+<section class="mini-grid">
+<div class="tile" style="background-image:url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop')"><span>Eventos</span></div>
+<div class="tile" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop')"><span>Reels</span></div>
+</section>
+
+<section class="cta">
+<h2 style="font:700 3rem Playfair Display,serif">Creemos algo cinematográfico</h2><br>
+<p>@BinsonLi</p>
+</section>
+
+<footer>© BinsonLi Visuals</footer>
+</body></html>
