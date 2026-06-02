@@ -3581,9 +3581,6 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-		#header .logo img {
-        		width: 100%; /* más chico en celular */
-    	}
 	
 
 
@@ -3593,9 +3590,7 @@ input, select, textarea {
 				height: 14rem;
 				padding-bottom: 4rem;
 			}
-			#header .logo img {
-        		width: 50%; /* más chico en celular */
-    		}
+			
 
 		}
 
