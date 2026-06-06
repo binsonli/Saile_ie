@@ -2589,6 +2589,20 @@ input, select, textarea {
 
 /* Image */
 
+.video-container {
+
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+.video-container video {
+	width: 100%;
+	
+
+	
+    
+}
 	.image {
 		border: 0;
 		display: inline-block;
@@ -2788,7 +2802,7 @@ input, select, textarea {
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
-						width: 100%;
+						width: 90%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -3816,7 +3830,7 @@ input, select, textarea {
 
 				#main > .post {
 					padding: 4rem 0rem 2rem 0rem ;
-					
+
 			
 				}
 
